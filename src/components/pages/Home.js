@@ -26,6 +26,8 @@ const Home = () => {
           "SQL",
           "HTML",
           "CSS",
+          "SCRUM",
+          "UML",
         ]}
       />
       <Projects />
