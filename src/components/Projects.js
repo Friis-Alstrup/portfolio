@@ -9,6 +9,18 @@ const Projects = () => {
         </div>
         <div className="project-list">
           <Project
+            tags={["PHP (Laravel)", "JavaScript", "SQL", "HTML", "CSS"]}
+            imgUrl="img/kjo.png"
+            title="Registreringssystem til Kendt Jordemoderordning (WIP)"
+            description="
+                  Dette er et af mine igangværende projekter.
+                  KJO (Kendt Jordemoderordning) ønsker en nem og intuitiv måde at registrere deres medarbejderes arbejde på.
+                  Dertil skal det også skabes mulighed for at ledelsen kan udtrække de indtastede data, således at bla. kørselfradrag kan ajourføres."
+            demoUrl=""
+            githubUrl="https://github.com/Friis-Alstrup/KJO-Panel"
+          />
+
+          <Project
             tags={["React", "Javascript", "HTML", "CSS"]}
             imgUrl="img/portfolio.png"
             title="Portefølje (phillipf.dk)"

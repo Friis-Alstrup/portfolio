@@ -17,17 +17,14 @@ const Home = () => {
           Dertil har jeg også en forkærlighed for specialøl. Så.. en rigtig nørd (på den gode måde) kan du nok godt kalde mig."
         skills={[
           "C#",
-          ".NET",
-          "EF",
-          "PHP",
-          "JS",
-          "Node",
-          "React",
+          "ASP.NET",
+          "EF Core",
           "SQL",
           "HTML",
           "CSS",
-          "SCRUM",
-          "UML",
+          "PHP",
+          "JavaScript",
+          "React"
         ]}
       />
       <Projects />

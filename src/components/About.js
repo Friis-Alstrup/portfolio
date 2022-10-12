@@ -6,7 +6,7 @@ const About = (props) => {
     <div className="container">
       <div className="about">
         <div className="picture">
-          <img src={props.imgUrl} alt="" />
+          <img src={props.imgUrl} alt="Det er mig" />
         </div>
         <div className="about-text">
           <div className="about-bio">
