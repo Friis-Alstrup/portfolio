@@ -106,7 +106,14 @@ body {
   justify-content: center;
 }
 
+.picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .picture img {
+  height: 452px;
   border-radius: 12px;
 }
 
