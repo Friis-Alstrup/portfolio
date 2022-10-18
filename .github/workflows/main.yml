@@ -37,4 +37,4 @@ jobs:
         with: 
           server: ftp.phillipf.dk
           username: github@phillipf.dk
-          password: ${{ secrets.ft_password }}
+          password: ${{ secrets.ftp_password }}
