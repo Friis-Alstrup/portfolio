@@ -10,7 +10,7 @@ const Projects = () => {
           tags={["C#"]}
           imgUrl="img/massfilerenamer.png"
           title="Mass File Renamer"
-          description="Dette program er skrevet for en virksomhed der stod med ca. 5000 billeder de ikke kunne bruge i deres produktkatalog, da producenten ud af det blå, opdaterede alle deres varernumre. Deres BusinessCentral side er opbygget således at den benytter de billeder der har samme navn som varens varenummer. Derfor stod en medarbejder foran mange timers manuelt arbejde. Det løste dette program heldigvis."
+          description="Dette program er skrevet for en virksomhed der stod med ca. 5000 billeder, de ikke kunne bruge i deres produktkatalog, da producenten ud af det blå, opdaterede alle deres varernumre. Deres BusinessCentral side er opbygget således at den benytter de billeder der har samme navn som varens varenummer. Derfor stod en medarbejder foran mange timers manuelt arbejde. Det løste dette program heldigvis."
           demoUrl=""
           githubUrl="https://github.com/Friis-Alstrup/MassFileRenamer"
         />
