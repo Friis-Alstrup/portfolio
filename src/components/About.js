@@ -3,27 +3,27 @@ import Skill from "../components/Skill";
 const About = (props) => {
   const skills = props.skills;
   return (
-    <div className="container">
-      <div className="about">
-        <div className="picture">
-          <img src={props.imgUrl} alt="Det er mig" />
+    <section id="about">
+        <div className="about_image">
+            <img src={props.imgUrl} alt="Det er mig"/>
         </div>
-        <div className="about-text">
-          <div className="about-bio">
-            <h3>Om mig</h3>
-            <p>{props.aboutText}</p>
-          </div>
-          <div className="about-skills">
-            <h3>Skills</h3>
-            <div className="skill-list">
-              {skills.map((skill) => (
-                <Skill title={skill} />
-              ))}
+        <div className="about_content">
+            <div className="about_text">
+                <h1>Hvem er jeg?</h1>
+                <p>
+                    {props.aboutText}
+                </p>
             </div>
-          </div>
+            <div className="about_skills">
+                <h1>Værktøjskasse</h1>
+                <div className="skills_list">
+                  {skills.map((skill) => (
+                    <Skill title={skill} />
+                  ))}
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+    </section>
   );
 };
 
