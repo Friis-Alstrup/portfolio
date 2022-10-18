@@ -15,7 +15,7 @@ const About = (props) => {
                 </p>
             </div>
             <div className="about_skills">
-                <h1>Værktøjskasse</h1>
+                <h1>Primær værktøjskasse</h1>
                 <div className="skills_list">
                   {skills.map((skill) => (
                     <Skill title={skill} />
