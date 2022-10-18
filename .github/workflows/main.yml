@@ -37,4 +37,3 @@ jobs:
           server: ftp.phillipf.dk
           username: github@phillipf.dk
           password: ${{ secrets.ftp_password }}
-          local-dir: build/
